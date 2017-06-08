@@ -2,7 +2,9 @@
 Android studio集成
 
 一、安装Kotlin
+
 Android studio 2.3及以上版本安装Kotlin
+
 打开settings (Ctrl+Alt+S) ---> Plugins ---> 点击下方 Install JetBrains Plugins 或 Browse Repositories ---> 搜索 kotlin 安装即可 
 
 二、配置项目（Project）build.gradle文件 如下：
