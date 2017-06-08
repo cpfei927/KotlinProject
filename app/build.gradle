@@ -25,13 +25,8 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
     //主要是这两个依赖
     compile 'org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-4'
     compile 'org.jetbrains.kotlin:kotlin-reflect:1.1.2-4'
-}
-
-
-repositories {// 添加
-    //修改成国内阿里云的maven地址，否则某些地方下载不下来
-    maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
 }
